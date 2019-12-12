@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"	
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+                http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- 支付宝手机网站支付 -->
+	<!--<bean class="cn.itrip.trade.config.AlipayConfig">
+		<property name="appID" value="2016092400588376"/>
+		<property name="rsaPrivateKey" value=""/>
+		<property name="notifyUrl" value="http://a23173c305.iask.in/trade/api/notify"/>
+		<property name="returnUrl" value="http://localhost:8080/trade/api/return"/>
+		<property name="url" value="https://openapi.alipaydev.com/gateway.do"/>
+		<property name="charset" value="UTF-8"/>
+		<property name="format" value="json"/>
+		<property name="alipayPublicKey" value=""/>
+		<property name="logPath" value="/logs"/>
+		<property name="signType" value="RSA2"/>
+		&lt;!&ndash; <property name="paymentSuccessUrl" value="/itriptrade/success.jsp"/> &ndash;&gt;
+		<property name="paymentSuccessUrl" value="http://itrip.project.bdqn.cn/index.html#/orderpaystate?orderNo=%s&amp;id=%s"/>
+		<property name="paymentFailureUrl" value="http://itrip.project.bdqn.cn/index.html#/orderpaystate?orderNo=%s&amp;id=%s&amp;state=0"/>
+	</bean>-->
+	
+	
+</beans>
