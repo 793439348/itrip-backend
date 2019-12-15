@@ -44,7 +44,7 @@ public class MD5 {
 
     // 测试
     public static void main(String[] args) {
-        System.out.println(MD5.getMd5("helloasdffdas", 6));
-        System.out.println(getRandomCode());
+        System.out.println(MD5.getMd5("123456", 32));
+        System.out.println(MD5.getMd5("123456",32));
     }
 }

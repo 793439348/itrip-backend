@@ -19,7 +19,7 @@ public class MailUtil {
 
     private static String account = "793439348@qq.com"; // 发信人邮箱账号
     private static String authorizationCode = "qgtvecagxqvgbejf"; // 发信人授权码
-    private static String password = "**********"; // 发信人邮箱密码
+    private static String password = ""; // 发信人邮箱密码
     private static String receiveMailAccount = "1774158262@qq.com"; // 收信人邮箱
 
     // 初始化发信人信息

@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="itrip-trade" />
         <module name="itrip-utils" />
-        <module name="itrip-biz" />
+        <module name="itrip-trade" />
         <module name="itrip-beans" />
         <module name="itrip-dao" />
-        <module name="itrip-auth" />
+        <module name="itrip-biz" />
         <module name="itrip-search" />
+        <module name="itrip-auth" />
       </profile>
     </annotationProcessing>
   </component>
